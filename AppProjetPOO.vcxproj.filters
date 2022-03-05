@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Composant">
+      <UniqueIdentifier>{70202d6e-fb8d-46cd-9ab8-56ae62d38a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Service">
+      <UniqueIdentifier>{1480cfd3-1d68-427c-bc18-39c32fd43975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Composant">
+      <UniqueIdentifier>{63e4c38b-ce4d-474d-8b62-aa44eed1225c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Service">
+      <UniqueIdentifier>{1ee9ad51-8701-4282-b015-55391181ae67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VueGestionPersonnel.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Client.h">
+      <Filter>Fichiers d%27en-tête\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CAD.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_Statistique.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Adresse.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Article.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Commande.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Date.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_MoyenPaiement.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Personne.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_R_Commande_Article.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_R_Commande_Date.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_R_Commande_Total.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_R_Personne_Adresse.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_R_Personne_Date.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Superieur.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Total.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Type.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Comp_TB_Ville.cpp">
+      <Filter>Fichiers sources\Composant</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Article.cpp">
+      <Filter>Fichiers sources\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Client.cpp">
+      <Filter>Fichiers sources\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Commande.cpp">
+      <Filter>Fichiers sources\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Personnel.cpp">
+      <Filter>Fichiers sources\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Svc_Gestion_Statistique.cpp">
+      <Filter>Fichiers sources\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="VuePrincipal.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VueGestionClient.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VueGestionArticle1.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VueGestionStatistique.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VueGestionCommande.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VueGestionPersonnel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CAD.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_Statistique.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Adresse.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Article.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Commande.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Date.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_MoyenPaiement.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Personne.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_R_Commande_Article.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_R_Commande_Date.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_R_Commande_Total.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_R_Personne_Adresse.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_R_Personne_Date.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Superieur.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Total.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Type.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Comp_TB_Ville.h">
+      <Filter>Fichiers d%27en-tête\Composant</Filter>
+    </ClInclude>
+    <ClInclude Include="Svc_Gestion_Article.h">
+      <Filter>Fichiers d%27en-tête\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Svc_Gestion_Commande.h">
+      <Filter>Fichiers d%27en-tête\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Svc_Gestion_Personnel.h">
+      <Filter>Fichiers d%27en-tête\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Svc_Gestion_Statistique.h">
+      <Filter>Fichiers d%27en-tête\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="VuePrincipal.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="VueGestionClient.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="VueGestionArticle1.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="VueGestionStatistique.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="VueGestionCommande.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

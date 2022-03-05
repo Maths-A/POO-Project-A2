@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{EFFA940B-35BA-42C6-B151-4FB8BFBAD9DD}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>AppProjetPOO</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAD.cpp" />
+    <ClCompile Include="Comp_Statistique.cpp" />
+    <ClCompile Include="Comp_TB_Adresse.cpp" />
+    <ClCompile Include="Comp_TB_Article.cpp" />
+    <ClCompile Include="Comp_TB_Commande.cpp" />
+    <ClCompile Include="Comp_TB_Date.cpp" />
+    <ClCompile Include="Comp_TB_MoyenPaiement.cpp" />
+    <ClCompile Include="Comp_TB_Personne.cpp" />
+    <ClCompile Include="Comp_TB_R_Commande_Article.cpp" />
+    <ClCompile Include="Comp_TB_R_Commande_Date.cpp" />
+    <ClCompile Include="Comp_TB_R_Commande_Total.cpp" />
+    <ClCompile Include="Comp_TB_R_Personne_Adresse.cpp" />
+    <ClCompile Include="Comp_TB_R_Personne_Date.cpp" />
+    <ClCompile Include="Comp_TB_Superieur.cpp" />
+    <ClCompile Include="Comp_TB_Total.cpp" />
+    <ClCompile Include="Comp_TB_Type.cpp" />
+    <ClCompile Include="Comp_TB_Ville.cpp" />
+    <ClCompile Include="Svc_Gestion_Article.cpp" />
+    <ClCompile Include="Svc_Gestion_Client.cpp" />
+    <ClCompile Include="Svc_Gestion_Client.h" />
+    <ClCompile Include="Svc_Gestion_Commande.cpp" />
+    <ClCompile Include="Svc_Gestion_Personnel.cpp" />
+    <ClCompile Include="Svc_Gestion_Statistique.cpp" />
+    <ClCompile Include="VueGestionArticle1.cpp" />
+    <ClCompile Include="VueGestionClient.cpp" />
+    <ClCompile Include="VueGestionCommande.cpp" />
+    <ClCompile Include="VueGestionPersonnel.cpp" />
+    <ClCompile Include="VueGestionStatistique.cpp" />
+    <ClCompile Include="VuePrincipal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAD.h" />
+    <ClInclude Include="Comp_Statistique.h" />
+    <ClInclude Include="Comp_TB_Adresse.h" />
+    <ClInclude Include="Comp_TB_Article.h" />
+    <ClInclude Include="Comp_TB_Commande.h" />
+    <ClInclude Include="Comp_TB_Date.h" />
+    <ClInclude Include="Comp_TB_MoyenPaiement.h" />
+    <ClInclude Include="Comp_TB_Personne.h" />
+    <ClInclude Include="Comp_TB_R_Commande_Article.h" />
+    <ClInclude Include="Comp_TB_R_Commande_Date.h" />
+    <ClInclude Include="Comp_TB_R_Commande_Total.h" />
+    <ClInclude Include="Comp_TB_R_Personne_Adresse.h" />
+    <ClInclude Include="Comp_TB_R_Personne_Date.h" />
+    <ClInclude Include="Comp_TB_Superieur.h" />
+    <ClInclude Include="Comp_TB_Total.h" />
+    <ClInclude Include="Comp_TB_Type.h" />
+    <ClInclude Include="Comp_TB_Ville.h" />
+    <ClInclude Include="Svc_Gestion_Article.h" />
+    <ClInclude Include="Svc_Gestion_Commande.h" />
+    <ClInclude Include="Svc_Gestion_Personnel.h" />
+    <ClInclude Include="Svc_Gestion_Statistique.h" />
+    <ClInclude Include="VueGestionArticle1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VueGestionClient.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VueGestionCommande.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VueGestionPersonnel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VueGestionStatistique.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VuePrincipal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VueGestionArticle1.resx">
+      <DependentUpon>VueGestionArticle1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueGestionClient.resx">
+      <DependentUpon>VueGestionClient.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueGestionCommande.resx">
+      <DependentUpon>VueGestionCommande.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueGestionPersonnel.resx">
+      <DependentUpon>VueGestionPersonnel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueGestionStatistique.resx">
+      <DependentUpon>VueGestionStatistique.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VuePrincipal.resx">
+      <DependentUpon>VuePrincipal.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
